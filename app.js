@@ -1,6 +1,6 @@
-const express = require("express");
-const jwksClient = require("jwks-rsa");
-const jwt = require("jsonwebtoken");
+import express  from "express";
+import jwksClient  from "jwks-rsa";
+import jwt  from "jsonwebtoken";
 
 const app = express();
 const PORT = 3000;
